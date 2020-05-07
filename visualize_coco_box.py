@@ -2,8 +2,8 @@ import json
 import os
 import cv2
 
-images_path = "./coco/train2017/" # 必须全英文路径，无空格，无非法字符
-json_file = './coco/annotations/instances_train2017.json' # coco格式的json文件
+images_path = "./coco_167train_0 val/train2017/" # 必须全英文路径，无空格，无非法字符
+json_file = './coco_167train_0 val/annotations/instances_train2017.json' # coco格式的json文件
 
 with open(json_file) as annos:
     coco_json = json.load(annos)
